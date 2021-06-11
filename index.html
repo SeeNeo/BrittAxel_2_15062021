@@ -4,59 +4,87 @@
 <title>Reservia</title>
 
 	<head>
-		<meta name="description" content="Page description. No longer than 155 characters." />
 
-		<!-- Twitter Card data -->
-		<meta name="twitter:card" value="summary">
-
-		<!-- Open Graph data -->
-		<meta property="og:reservia" content="Title Here" />
-		<meta property="og:website" content="website" />
-		<meta property="og:projet2.html" content="http://www.example.com/" />
-		<meta property="og:image" content="http://example.com/image.jpg" />
-		<meta property="og:description" content="Description Here" />
 	</head>
 <body>
+	<div class="container">
+	
+	<!-- Header Top Left / Hébergements + Activités + Inscription -->
+	
+		<header>
+			<nav class="menu_header"></nav>
+				<ul>
+					<li><a href="Hébergements">Hébergements</a></li>
+					<li><a href="Activités">Activités</a></li>
+				</ul>
+						<p>S'inscrire</p>
+				</nav>
+	
+		<!-- Header side left / presentation + Recherche -->
+			
+			<div class="header_left">
+				<div class="presentation">
+					<div class="logo">
+						<img src="images/logo/Reservia.svg" alt="Reservia"/>
+					</div>
+					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+					<p>En plein centre ville ou en pleine nature</p>
+				</div>
+				<div class="search">
+					<div class="icongps">
+						<img src="map-marker-alt-solid.svg" alt="gps"/>
+					</div>
+					<input type="text" placerholder="Ville, Pays"/>
+				</div>
+	
+		<!-- Header side left / Filters -->
 
-	<!-- Logo Header -->
-	<header>
-	</header>
+				<nav class="filters">
+					<div class="filters_select">
+						<p>Économique</p>
+					</div>
+					<div class="filters_select">
+						<p>Familial</p>
+					</div>
+					<div class="filters_select">
+						<p>Romantique</p>
+					</div>
+					<div class="filters_select">
+						<p>Animaux Autorisés</p>
+					</div>
+				</nav>
 
+		<!-- Fin Header -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Footer Support-->
-	<footer>
-	</footer>
-
+				<div class="info">
+					<p>Plus de 500 logements sont disponibles dans cette ville</p>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="footer_menu">
+				<h3>A propos</h3>
+				<ul>
+					<li><a href="">Fonctionnement du site</a></li>
+					<li><a href="">Conditions Générales de vente</a></li>
+					<li><a href="">Données et confidentialité</a></li>
+				</ul>
+			</div>
+			<div class="footer_menu">
+				<h3>Nos hébergements</h3>
+				<ul>
+					<li><a href="">Charte qualité</a></li>
+					<li><a href="">Soumettre votre hôtel</a></li>
+				</ul>
+			</div>
+			<div class="footer_menu">
+				<h3>Assistance</h3>
+				<ul>
+					<li><a href="">Centre d'aide</a></li>
+					<li><A href="">Nous contacter</A></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
