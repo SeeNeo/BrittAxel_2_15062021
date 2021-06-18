@@ -30,22 +30,39 @@ a {
     margin-right: auto;
 }
 .menu_header {
-    display: flex;
-    justify-content: space-between;
     position: absolute;
-    top: 50px;
-    right: 13%;
-    width: 23%;
+    top: -68px;
+    right: 0%;
+    width: 35%;
     font-size: 1.1em;
-    font-weight: 800;
+    font-weight: 700;
 }
-.menu_1:hover{
+.menu_headerbis {
+    display: flex;
+    flex-direction: row;
+    border-top: 3px transparent;
+    padding: 50px;
+    text-align: center;
+}
+.menu_headerbis li {
+    width: 100%;
+    padding-top: 50px;
+    border-top: 3px transparent;
+}
+.menu_headerbis li.active {
+    border-top: 3px solid #0065FC;
+}
+.menu_headerbis li.active a {
+    color: #0065FC;
+}
+.menu_headerbis li:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+.menu_3 {
     color: #0065FC;
 }
 .menu_2:hover{
-    color: #0065FC;
-}
-.menu_3 {
     color: #0065FC;
 }
 .logo {
@@ -58,37 +75,67 @@ a {
 .presentation p{
     margin-top: -8px;
 }
-.gps_icon i {
-    text-align: center;
+.gps_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
     background-color: #F2F2F2;
 }
+.search1 {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    width: 420px;
+}
+input {
+    border: 0;
+    width: 235px;
+    padding-left: 10px;
+    font-size: 1.35em;
+}
+.search_button {
+    font-size: 1.35em;
+    font-weight: 600;
+    color: white;
+}
+.search_button2 {
+    width: 133px;
+    background-color: #0065FC;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border: 0;
+}
 .filters {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
     width: 70%;
-    font-weight: 700;
     margin-top: 50px;
 }
+.filters p {
+    font-weight: 800;
+}
 .filters_select {
-    display: flex;
-    flex-direction: row;
-    padding-right: 20px;
-    font-size: 17px;
     border: 3px solid #F2F2F2;
-    border-radius: 30px;
+    border-radius: 25px;
+    padding: 13px;
+    padding-right: 25px;
+    padding-left: 40px;
 }
 .filters_select i {
-    position: relative;
-    margin-right: 8px;
+    position: absolute;
+    display: flex;
+    margin-top: -16px;
+    margin-left: -50px;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
-    line-height: 50px;
     color: #0065fc;
-    text-align: center;
     background-color: #deebff;
     border-radius: 100%;
 }
@@ -361,7 +408,7 @@ footer {
     height: 220px;
 }
 .footer_menu {
-    margin-left: 315px;
+    margin-left: 215px;
 }
 .footer_menu ul {
     margin-left: -40px;

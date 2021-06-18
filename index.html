@@ -14,11 +14,13 @@
 	<!-- Header Top Left / Hébergements + Activités + Inscription -->
 	
 		<header>
-			<div class="menu_header">
-				<a class="menu_1" href="hebergements">Hébergements</a>
-				<a class="menu_2" href="activités">Activités</a>
-				<a class="menu_3" href="s'incrire">S'inscrire</a>
-			</div>
+			<nav class="menu_header">
+				<ul class="menu_headerbis">
+					<li class="active"><a class="menu_1" href="hebergements">Hébergements</a></li>	
+					<li><a class="menu_2" href="activités">Activités</a></li>
+					<li><a class="menu_3" href="s'incrire">S'inscrire</a></li>
+				</ul>
+			</nav>
 	
 	<!-- Header side left / presentation + Recherche -->
 			<div class="presentation">
@@ -28,13 +30,13 @@
 				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 				<p>En plein centre ville ou en pleine nature</p>
 			</div>
-			<form>
+			<form class="search1">
 				<span class="gps_icon">
 					<i class="fas fa-map-marker-alt fa-lg"></i>
 				</span>
 				<input type="search" placeholder="Marseille, France"/>
-				<button>
-					<span class="search_button">Rechercher</span>
+				<button class="search_button2">
+					<a href=""><span class="search_button">Rechercher</span></a>
 				</button>
 			</form>
 	
