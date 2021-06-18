@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
 <html>
-<title>Reservia</title>
-
-	<head>
-		<script src="https://kit.fontawesome.com/738b0055bb.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
+<head>
+	<script src="https://kit.fontawesome.com/738b0055bb.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>
+		Reservia
+	</title>
+</head>
 <body>
 	<div class="container">
 	
@@ -31,11 +32,10 @@
 				<span class="gps_icon">
 					<i class="fas fa-map-marker-alt fa-lg"></i>
 				</span>
-					<input type="search" placeholder="Marseille, France"/>
-					<button>
+				<input type="search" placeholder="Marseille, France"/>
+				<button>
 					<span class="search_button">Rechercher</span>
-					</button>
-				</span>
+				</button>
 			</form>
 	
 		<!-- Header side left / Filters -->
@@ -43,25 +43,25 @@
 			<nav class="filters">
 				<p>Filtres</p>
 				<a href="">
-				<div class="filters_select" href="Economique">
+				<div class="filters_select">
 					<i class="fas fa-money-bill-wave"></i>
 					<p>Économique<p>
 				</div>
 				</a>
 				<a href="">
-				<div class="filters_select" href="Familial">
+				<div class="filters_select">
 					<i class="fas fa-child"></i>
 					<p>Familial</p>
 				</div>
 				</a>
 				<a href="">
-				<div class="filters_select" href="Romantique">
+				<div class="filters_select">
 					<i class="fas fa-heart"></i>
 					<p>Romantique</p>
 				</div>
 				</a>
 				<a href="">
-				<div class="filters_select" href="Animaux Autorisés">
+				<div class="filters_select">
 					<i class="fas fa-dog"></i>
 					<p>Animaux Autorisés</p>
 				</div>
@@ -70,10 +70,10 @@
 
 		<!-- Fin Header -->
 
-				<div class="info">
-					<i class="fas fa-info" style="vertical-align: middle;"></i>
-					<p>Plus de 500 logements sont disponibles dans cette ville</p>
-				</div>
+			<div class="info">
+				<i class="fas fa-info" style="vertical-align: middle;"></i>
+				<p>Plus de 500 logements sont disponibles dans cette ville</p>
+			</div>
 		</header>
 
 		<!-- Main / Herbergements a Marseille -->
@@ -222,37 +222,66 @@
 			</div>
 
 			<!-- Main / Activités à Marseille -->
-
+			<h5>Activités à Marseille</h5>
 			<div class="activités">
-				<h2>Activités à Marseille</h2>
-				<a href="" class="activités">
-					<img src="" alt="Vieux port" class="Big_Pictures" />
-					<p>Vieux Port</p>
+				<div class="cards_activités_column">
+					<a href="">
+						<div class="cards_activités">
+						<img src="images\activites\1_xlarge\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port" class="cards_activités_big" />
+							<div class="cards_activités_legends">
+								<p>Vieux Port</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="cards_activités_column">
+					<a href="">
+						<div class="cards_activités">
+							<img src="images\activites\3_medium\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" class="cards_activités_medium2" />
+							<div class="cards_activités_legends">
+								<p>Fort de Pomègues</p>
+							</div>
+						</div>
+					</a>
+					<a href="">
+					<div class="cards_activités">
+						<img src="images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du frioul" class="cards_activités_little" />
+						<div class="cards_activités_legends">
+							<p>Îles du frioul</p>
+						</div>
+					</div>
 				</a>
-				<a href="" class="activités">
-					<img src="" alt="Fort de Pomègues" class="Little_Pictures" />
-					<p>Vieux Port</p>
-				</a>
-				<a href="" class="activités">
-					<img src="" alt="Îles du frioul" class="Little_Pictures" />
-					<p>Vieux Port</p>
-				</a>
-				<a href="" class="activités">
-					<img src="" alt="Parc National des Calanques" class="Big Pictures" />
-					<p>Vieux Port</p>
-				</a>
-				<a href="" class="activités">
-					<img src="" alt="Vieux port" class="Little_Pictures" />
-					<p>Vieux Port</p>
-				</a>
-				<a href="" class="activités">
-					<img src="" alt="Vieux port" class="Little_Pictures" />
-					<p>Vieux Port</p>
-				</a>
+				</div>
+				<div class="cards_activités_column">
+					<a href="">
+						<div class="cards_activités">
+						<img src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" class="cards_activités_big" />
+							<div class="cards_activités_legends">
+							<p>Parc National des Calanques</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="cards_activités_column">
+					<a href="">
+						<div class="card_activités">
+						<img src="images\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Vieux port" class="cards_activités_medium" />
+							<div class="cards_activités_legends">
+								<p>Parc Longchamp</p>
+							</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="cards_activités">
+						<img src="images\activites\3_medium\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Vieux port" class="cards_activités_medium3" />
+							<div class="cards_activités_legends">
+								<p>Parc Longchamp</p>
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
-			
 		</main>
-
 
 		<!-- FOOTER -->
 

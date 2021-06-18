@@ -5,9 +5,14 @@
 p {
     font-size: 1em;
     color: black;
+    font-weight: 500;
 }
 h4 {
     color: black;
+}
+h5{
+    font-size: 1.5em;
+    margin-top: 50px;
 }
 ul {
     list-style-type: none;
@@ -25,7 +30,6 @@ a {
     margin-right: auto;
 }
 .menu_header {
-    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -78,7 +82,8 @@ a {
     border-radius: 30px;
 }
 .filters_select i {
-    left: 20px;
+    position: relative;
+    margin-right: 8px;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -102,7 +107,7 @@ a {
     margin-top: 40px;
     margin-right: 10px;
 }
-.info i{
+.info i {
     margin-top: 12px;
     margin-left: 10px;
     vertical-align: middle;
@@ -111,7 +116,7 @@ a {
     line-height: 24px;
     text-align: center;
     color: #0065FC;
-    border:1px solid #F2F2F2;
+    border:2px solid #dadada;
     border-radius: 100%
 }
 .info p{
@@ -151,6 +156,7 @@ a {
     position: relative;
     width: 28%;
     height: 200px;
+    background-color: white;
     border: 5px solid white;
     border-radius: 20px;
     box-shadow: 0px 0px 12px rgb(205, 205, 205);
@@ -164,9 +170,6 @@ a {
     bottom: 0px;
     width: 100%;
     height: 80px;
-    background-color: white;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 .cards_hebergements_legends p {
     margin-top: -22px;
@@ -236,13 +239,14 @@ a {
     height: 130px
 }
 .cards_hebergementspop_legends h4{
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: 168px;
     width: 45%;
     font-size: 1.1em;
 }
 .cards_hebergementspop_legends p{
-    margin-left: 168px;
+    margin-left: 133px;
+    padding-left: 10%;
     margin-top: -13px;
 }
 .cards_hebergementspop_pictures {
@@ -261,6 +265,77 @@ a {
     margin-left: 168px;
 }
 
+.activités {
+    margin-top:-15px;
+    width: 100%;
+    height: 447px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.activités a:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+.cards_activités_column {
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22%;
+}
+.cards_activités_big {
+    object-fit: cover;
+    width: 100%;
+    height: 390px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cards_activités_little {
+    object-fit: cover;
+    width: 100%;
+    height: 109px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cards_activités_medium2 {
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cards_activités_medium {
+    object-fit: cover;
+    width: 100%;
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cards_activités_medium3 {
+    object-fit: cover;
+    width: 100%;
+    height: 153px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cards_activités_legends {
+    margin-top: -3px;
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(205, 205, 205);
+    padding-top: px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.cards_activités_legends p {
+    position: absolute;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 1.1em;
+}
 
 
 
@@ -274,7 +349,10 @@ a {
 
 
 
-footer{
+
+
+footer {
+    margin-top: 50px;
     position: absolute;
     left: 0px;
     display: flex;
@@ -282,9 +360,12 @@ footer{
     width: 100%;
     height: 220px;
 }
-.footer_menu{
-    margin-left: 250px;
+.footer_menu {
+    margin-left: 315px;
 }
-.footer_menu ul{
-    margin-left: 0px;
+.footer_menu ul {
+    margin-left: -40px;
+    line-height: 200%;
+    word-spacing: 110%;
+    letter-spacing: 110%;
 }
