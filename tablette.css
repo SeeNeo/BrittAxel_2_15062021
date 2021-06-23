@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Raleway" ;
+    font-family: "" ;
     src: url("Font/static/Raleway-Regular.ttf");
 }
 p {
@@ -115,7 +115,7 @@ input {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    width: 900px;
+    width: 70%;
     margin-top: 50px;
 }
 .filters p {
@@ -397,10 +397,3 @@ footer {
 .footer_menu {
     margin-left: 215px;
 }
-.footer_menu ul {
-    margin-left: -40px;
-    line-height: 200%;
-    word-spacing: 110%;
-    letter-spacing: 110%;
-}
-
