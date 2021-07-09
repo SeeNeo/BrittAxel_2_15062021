@@ -6,6 +6,9 @@ p {
     font-size: 1em;
     font-weight: 500;
 }
+h3 {
+    font-size: 1.1rem;
+}
 ul {
     list-style-type: none;
 }
