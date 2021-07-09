@@ -20,11 +20,6 @@ a {
 h1 {
     font-size: 1.7rem;
 }
-h5 {
-    font-size: 1.5rem;
-    margin-left: 20px;
-    margin-top: 15px;
-}
 .fas[data-active="true"] {
     color: #0065fc;
 }
