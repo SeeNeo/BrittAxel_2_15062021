@@ -89,7 +89,7 @@ h1 {
     border-bottom-right-radius: 13px;
     color: white;
     padding: 0 5px 0 5px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 .search_button i {
     display: none;
